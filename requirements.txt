@@ -1,0 +1,9 @@
+pandas
+scikit-learn
+transformers
+torch
+gradio
+openai
+jupyter
+notebook
+python-dotenv
