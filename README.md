@@ -12,46 +12,6 @@ This repository is used during class as a **live demo codebase**. Students can f
 
 ---
 
-## Learning goals
-
-By the end of this lesson, students should be able to:
-
-- explain what it means to **reuse an ML model**
-- understand Hugging Face as a platform for **models, datasets, and demos**
-- use a small ML model inside a simple application
-- wrap a prediction function in a **Gradio UI**
-- understand the basic role of a **GenAI API**
-- understand the high-level idea of an **AI agent**
-
----
-
-## Lesson flow
-
-The lesson follows this progression:
-
-1. **Reuse of ML models**  
-   Why we do not always train models from scratch
-
-2. **Hugging Face ecosystem**  
-   Finding reusable datasets, models, and demos
-
-3. **Tiny model reuse demo**  
-   Running a pretrained model in a few lines
-
-4. **Tiny Titanic prediction app**  
-   Turning model logic into an application
-
-5. **Gradio UI**  
-   Making the app interactive
-
-6. **OpenAI API introduction**  
-   Showing how applications can call hosted GenAI models
-
-7. **AI agent idea**  
-   Understanding how an application can decide what to do next using models and tools
-
----
-
 ## Repository structure
 
 ```text
