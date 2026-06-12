@@ -25,14 +25,14 @@ hf-api-agents-demo/
 │
 ├── notebooks/
 │   ├── 01_reuse_ml_and_hf.ipynb
-│   ├── 02_titanic_prediction.ipynb
-│   ├── 03_gradio_ui.ipynb
-│   └── 04_openai_api_and_tiny_agent.ipynb
+│   ├── 02_prediction.ipynb
+│   ├── 03_openai_api_and_tiny_agent.ipynb
+│   └── 04_gradio_ui.ipynb
 │
 ├── src/
 │   ├── __init__.py
 │   ├── hf_demo.py
-│   ├── titanic_model.py
+│   ├── model.py
 │   ├── llm_api.py
 │   └── tiny_agent.py
 │
