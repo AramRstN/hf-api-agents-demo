@@ -31,9 +31,11 @@ hf-api-agents-demo/
 │
 ├── src/
 │   ├── __init__.py
+|   ├── debate.py
+|   ├── gradio_debate.py
 │   ├── hf_demo.py
-│   ├── model.py
 │   ├── llm_api.py
+│   ├── prediction_model.py
 │   └── tiny_agent.py
 │
 └── app/
