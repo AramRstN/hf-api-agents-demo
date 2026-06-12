@@ -19,6 +19,7 @@ hf-api-agents-demo/
 │
 ├── README.md
 ├── requirements.txt
+|── 00_setup.ipynb
 ├── .gitignore
 ├── .env.example
 │
@@ -35,14 +36,8 @@ hf-api-agents-demo/
 │   ├── llm_api.py
 │   └── tiny_agent.py
 │
-├── app/
-│   └── gradio_app.py
-│
-├── data/
-│   └── titanic_sample.csv
-│
-└── assets/
-    └── architecture.png
+└── app/
+    └── gradio_app.py
 ```
 ---
 
@@ -51,30 +46,34 @@ hf-api-agents-demo/
 
 Jupyter notebooks used during the lesson.
 
-`src/`
-
-Reusable Python code for the notebooks and app.
-
 `app/`
 
 A standalone Gradio application.
 
-`data/`
-
-Small sample datasets used for demo purposes.
-
-`assets/`
-
-Images or diagrams used in the lesson or README.
 
 ---
 ## Quick start
-1. Clone the repository.
-2. Create a virtual environment
-3. Install dependencies: 
-```shell 
-pip install -r requirements.txt
+1. Install Ollama from `ollama.com`
+2. Download at least one local model
+
+```bash
+ollama pull llama3.2
 ```
+
+or
+
+```bash
+ollama pull qwen3:4b
+```
+
+3. Clone this repository
+4. Run:
+
+```bash
+00_setup.ipynb
+```
+
+and make sure all checks pass successfully.
 ---
 ## Related lab repository
 
@@ -82,7 +81,7 @@ A separate lab starter repository is provided for in-class exercises:
 
 `hf-api-agents-lab`
 
-That repository contains starter code and TODOs for students to complete.
+That repository contains TODOs for students to complete.
 
 ---
 ## Disclaimer
